@@ -35,9 +35,20 @@ if(Number < 100)
   
    int NumberThree = (Number - (NumberA * P )) / (P /10);
 
-   Console.WriteLine( P + "#" + NumberA + "$" + "" + Number + "->" + NumberThree);
+   Console.WriteLine(Number + "->" + NumberThree);
   }
   */
 
-
-  
+ /*
+  //Программа, которая принимает на вход цифру, обозначающую день недели, и проверяет, является ли этот день выходным
+  Console.Write("Введите цыфру: ");
+  int Number = Convert.ToInt32(Console.ReadLine());
+  if (Number == 6 || Number == 7)
+  {
+    Console.WriteLine("Это  выходной");
+  }
+  else
+  {
+  Console.WriteLine("Это не выходной");
+  }
+  */
